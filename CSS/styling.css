@@ -52,3 +52,22 @@ td, th {
 	
 .alignRight {
 	text-align: right; }
+/*1.1.1*/
+#main{
+	margin-left: 150px;
+}
+/*1.1.2*/
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+/*1.1.3*/
+footer{
+	margin-top: 5ems;
+	border-top: 2px solid gray;
+	padding-top: 7ems;
+	clear: left;
+}
+
+/*Simanye Somdaka*/
+
