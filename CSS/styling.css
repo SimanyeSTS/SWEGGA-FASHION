@@ -72,21 +72,41 @@ footer{
 /*Simanye Somdaka*/
 
 #Home{
-	
+	position: fixed;
+	top: 10.5px;
+	left: 10.5px;
+	bottom: 95.35px;
+	right: 95.35px;
 }
 
 #Services{
-
+	position: fixed;
+	top: 105.5px;
+	left: 105.5px;
+	bottom: 190.35px;
+	right: 190.35px;
 }
 
 #Products{
-
+	position: fixed;
+	top: 205.5px;
+	left: 205.5px;
+	bottom: 300.35px;
+	right: 300.35px;
 }
 
 #ORDST{
-
+	position: fixed;
+	top: 310.5px;
+	left: 310.5px;
+	bottom: 440.35px;
+	right: 440.35px;
 }
 
 #CONTUS{
-	
+	position: fixed;
+	top: 450.5px;
+	left: 450.5px;
+	bottom: 555.35px;
+	right: 555.35px;
 }
