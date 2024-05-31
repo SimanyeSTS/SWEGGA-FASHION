@@ -12,66 +12,102 @@
 <body>
 <div id="page">
 
+    <div id="banner"> <!--1.2.3-->
+        <img src="https://simanyests.github.io/Images/delivery[1].gif" height="85px" width="300px" alt="DELIVERY"> 
+    </div>
+
+    <div id="navigation"> <!--1.2.4-->
+        <img src="https://simanyests.github.io/Images/links[1].gif" alt="navigation" usemap="#home">
+
+        <map name="home">
+            <area shape="rect" coords="10,5,95,35" href="order.html">
+            <area shape="rect" coords="105,5,190,35" href="services.html">
+            <area shape="rect" coords="205,5,300,35" href="products.html">
+            <area shape="" coords="310,5,440,35" href="orderStatus.html">
+            <area shape="" coords="450,5,555,35" href="contactUs.html">
+        </map>
+</div>
+
+<div id="sidebar"> <!--1.2.2-->
+    <img src="https://simanyests.github.io/Images/swegga[1].jpg" height="350px" width="150px" alt="SWEGGA">
+</div>
+
 	<div id="main">
         <form action="orders"> <!--2.1-->
-            <h1>Product Summary</h1>
-            <table> <!--2.2.1-->
-                <thead>
+            <caption>Product Summary</caption> <!--2.2.1-->
+            <table> 
+                <thead> <!--2.2.2-->
                     <tr>
-                        <th>Area</th>
-                        <th>Coordinates (x, y) <hr> <br> Top Left | Top Right</th>
-                        <br>
-                        <th>Link to page</th>
+                        <th>Description</th>
+                        <th>Size</th>
+                        <th>Colour</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody> <!--2.2.3-->
                     <tr>
-                        <td>Home</td>
-                        <td>Data 2 | Data 2</td>
-                        <td></td>
+                        <td><a href="female.html">Female Ski Jackets</a></td> <!--2.2.3 (a)-->
+                        <td><select>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                            
+                        </select></td>
+                        
+                        <td><select>
+                            <option>Red</option>
+                            <option>Pink</option>
+                            <option>Black</option>
+                        </select></td>
+
+                        <td>150.95</td>
+                        <td><input type="number"></td>
+                        <td class="female output" output></td>
                     </tr>
                     <tr>
-                        <td>Services</td>
-                        <td>Data 5 | Data 5</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Products</td>
-                        <td>Data 8 | Data8</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Order Status</td>
-                        <td>Data 10| Data 10</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Contact Us</td>
-                        <td>Data 12 | Data 12</td>
-                        <td></td>
-                    </tr>
+                        <td><a href="male.html">Male Ski Jackets</a></td>
+                        <td><select>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select></td>
+                        
+                        <td><select>
+                            <option>Red</option>
+                            <option>Blue</option>
+                            <option>White</option>
+                        </select></td>
+
+                        <td>180.95</td>
+                        <td><input type="number"></td>
+                        <td class="male output" output></td>
+
+                        <tr>
+                        <td colspan="4">
+                                <p>Click to confirm and process your order:</p>
+                            </td>
+                            <td>
+                                <button type="submit">Total Price</button>
+                            </td>
+                            <td class="total output" output></td>
+                        </tr>
                 </tbody>
             </table>
         </form>
 
 	</div>
 	
-    <div id="sidebar"> <!--1.2.2-->
-        <img src="https://simanyests.github.io/Images/swegga[1].jpg" height="350px" width="150px" alt="SWEGGA">
-    </div>
+   
 
-    <div id="banner"> <!--1.2.3-->
-        <img src="https://simanyests.github.io/Images/delivery[1].gif" height="85px" width="300px" alt="DELIVERY"> 
-    </div>
+   
 
-    <div id="navigation"> <!--1.2.4-->
-        <img src="https://simanyests.github.io/Images/links[1].gif" height="56px" width="560px" alt="links">
-        <a id="Home" href="order.html">Home</a>
-        <a id="Services" href="services.html">Services</a>
-        <a id="Products" href="products.html">Products</a>
-        <a id="ORDST" href="orderStatus.html">Order Status</a>
-        <a id="CONTUS" href="contactUs.html">Contact Us</a>
-</div>
+   
+
+<footer>
+    <p>&copy; 2020 Swegga Fashion – SIMANYE SOMDAKA</p>
+</footer>
 <script src="script/script.js"></script>
 </body>
 </html>
