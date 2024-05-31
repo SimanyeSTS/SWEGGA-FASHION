@@ -13,7 +13,7 @@
 <div id="page">
 
     <div id="banner"> <!--1.2.3-->
-        <img src="https://simanyests.github.io/Images/delivery[1].gif" height="85px" width="300px" alt="DELIVERY"> 
+        <img src="https://simanyests.github.io/Images/delivery[1].gif" alt="DELIVERY"> 
     </div>
 
     <div id="navigation"> <!--1.2.4-->
@@ -26,16 +26,16 @@
             <area shape="" coords="310,5,440,35" href="orderStatus.html">
             <area shape="" coords="450,5,555,35" href="contactUs.html">
         </map>
-</div>
+    </div>
 
-<div id="sidebar"> <!--1.2.2-->
-    <img src="https://simanyests.github.io/Images/swegga[1].jpg" height="350px" width="150px" alt="SWEGGA">
-</div>
+    <div id="sidebar"> <!--1.2.2-->
+        <img src="https://simanyests.github.io/Images/swegga[1].jpg" alt="SWEGGA">
+    </div>
 
-	<div id="main">
-        <form action="orders"> <!--2.1-->
-            <caption>Product Summary</caption> <!--2.2.1-->
+    <div id="main">
+        <form action="orders"> <!--2.1--> 
             <table> 
+                <caption>Product Summary</caption><!--2.2.1-->
                 <thead> <!--2.2.2-->
                     <tr>
                         <th>Description</th>
@@ -53,7 +53,6 @@
                             <option>Small</option>
                             <option>Medium</option>
                             <option>Large</option>
-                            
                         </select></td>
                         
                         <td><select>
@@ -63,7 +62,7 @@
                         </select></td>
 
                         <td>150.95</td>
-                        <td><input type="number"></td>
+                        <td><input type="number" min="0"></td>
                         <td class="female output" output></td>
                     </tr>
                     <tr>
@@ -81,33 +80,26 @@
                         </select></td>
 
                         <td>180.95</td>
-                        <td><input type="number"></td>
+                        <td><input type="number" min="0"></td>
                         <td class="male output" output></td>
-
-                        <tr>
+                    </tr>
+                    <tr>
                         <td colspan="4">
-                                <p>Click to confirm and process your order:</p>
-                            </td>
-                            <td>
-                                <button type="submit">Total Price</button>
-                            </td>
-                            <td class="total output" output></td>
-                        </tr>
+                            <p>Click to confirm and process your order:</p>
+                        </td>
+                        <td>
+                            <button type="button" onclick="calculateTotalPrice()">Total Price</button>
+                        </td>
+                        <td class="total output" output></td>
+                    </tr>
                 </tbody>
             </table>
         </form>
+    </div>
 
-	</div>
-	
-   
-
-   
-
-   
-
-<footer>
-    <p>&copy; 2020 Swegga Fashion – SIMANYE SOMDAKA</p>
-</footer>
-<script src="script/script.js"></script>
+    <footer>
+        <p class="copyright">&copy; 2020 Swegga Fashion – SIMANYE SOMDAKA</p>
+    </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>
